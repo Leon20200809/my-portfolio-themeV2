@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- AOS.js（Animate On Scroll） は、まさに**“動き出すHTML”を超簡単に実現する魔法のライブラリ -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Portfolio-site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset-light.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo"><img src="images/sitelogo2.png" alt=""></h1>
+
+            <!-- ハンバーガーボタン -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>「有能な怠け者は司令官に、有能な働き者は参謀にせよ。<br>無能な怠け者は、連絡将校か下級兵士にすべし。<br>無能な働き者は、すぐに銃殺刑に処せ。」</h1>
+            <p>ハンス・フォン・ゼークト(1866-1936)</p>
+            <p>ここはLeon.Cのポートフォリオサイトです<br>Web Developer / Code Artisan</p>
+            <a href="#works" class="btn-primary">View My Work</a>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up" data-aos-easing="ease">About Me</h2>
+            <div class="about-content" data-aos="fade-up" data-aos-easing="ease">
+                <img src="images/profile.jpeg" alt="Profile Photo">
+                <div class="about-text">
+                    <p>好きこそものの上手なれ 怠け者の天才プログラマー<br>
+                    主にPHP・WordPressを中心に、CMSやWebアプリを開発しています。</p>
+                    <p>「ラクするために全部コードで片付ける。それが俺の流儀。」<br>
+                    「コードで怠ける天才」「努力をコードに変える男」「動かない。でも動かす。」<br>趣味はジムで筋トレとおうちでゲーム。
+                    尊敬する人（？）はちいかわのうさぎ</p>
+                    
+                </div>
+            </div>
+
+            <div class="google-ana" data-aos="fade-up" data-aos-easing="ease">
+                <a href="https://skillshop.credential.net/da65889e-44e4-490c-9304-7aed917327f1#acc.l0YXV8Cq"><img src="images/Googleアナリティクス認定資格.png" alt=""></a>
+                <p>Googleアナリティクス４ちょっと使えます</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="icons/html5.svg" alt="HTML5">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="icons/css.svg" alt="CSS3">
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="icons/javascript.svg" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="400">
+                    <img src="icons/php.svg" alt="PHP">
+                    <span>PHP</span>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="500">
+                    <img src="icons/wordpress.svg" alt="WordPress">
+                    <span>WordPress</span>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="600">
+                    <img src="icons/mysql.svg" alt="React">
+                    <span>MySQL</span>
+                </div>
+                <div class="skill-item"data-aos="fade-up" data-aos-delay="700">
+                    <img src="icons/react.svg" alt="React">
+                    <span>React</span>
+                </div>
+                <!-- 必要に応じて追加 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- work -->
+    <section id="works" class="works-section">
+        <div class="container">
+            <h2 class="section-title">Works</h2>
+
+            <div class="works-grid">
+                
+                <div class="work-card">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <div class="work-info">
+                        <h3>自作CMS</h3>
+                        <p>PHPで構築したTwitter風CMS。画像投稿・認証機能あり。</p>
+                    </div>
+                </div>
+
+                <div class="work-card">
+                    <img src="images/project2.jpg" alt="Project 2">
+                    <div class="work-info">
+                    <h3>モンハンスキルシミュレータ</h3>
+                    <p>WordPressプラグインとして公開。装飾品と防具の組合せ検索。</p>
+                </div>
+            </div>
+            <!-- 他のプロジェクトも同様に -->
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <form class="contact-form" action="contact.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+
+                <label class="contact-label"></label>
+                <div class="radio-group">
+                    <label><input type="radio" name="subject" value="お仕事の依頼" required> お仕事の依頼</label>
+                    <label><input type="radio" name="subject" value="開発のご相談"> 開発のご相談</label>
+                    <label><input type="radio" name="subject" value="その他"> その他の連絡</label>
+                </div>
+
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Leon.C All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+    
+</body>
+</html>
