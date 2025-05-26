@@ -14,7 +14,7 @@
 
     <header class="site-header">
         <div class="container">
-            <h1 class="logo"><img src="<?= esc_url(get_theme_file_uri('/images/sitelogo2.png')) ?>" alt=""></h1>
+            <h1 class="logo"><a href="<?= home_url() ?>"><img src="<?= esc_url(get_theme_file_uri('/images/sitelogo2.png')) ?>" alt="site-logo"></a></h1>
 
             <!-- ハンバーガーボタン -->
             <div class="hamburger">
@@ -25,9 +25,9 @@
 
             <nav class="site-nav">
                 <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#works">Works</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#works">Works</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>

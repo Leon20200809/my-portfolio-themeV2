@@ -5,7 +5,7 @@
 
             <div class="works-grid">
                 
-                <div class="work-card">
+                <div class="work-card" data-aos="fade-right" data-aos-delay="300">
                     <img src="<?= esc_url(get_theme_file_uri('/images/WordPressオリジナルテーマ.png')) ?>" alt="Project 1">
                     <div class="work-info">
                         <h3>WordPressのオリジナルテーマ</h3>
@@ -13,7 +13,7 @@
                     </div>
                 </div>
 
-                <div class="work-card">
+                <div class="work-card" data-aos="fade-right" data-aos-delay="500">
                     <img src="<?= esc_url(get_theme_file_uri('/images/Twitter風のCMS.png')) ?>" alt="Project 1">
                     <div class="work-info">
                         <h3>Twitter風CMS</h3>
@@ -21,7 +21,7 @@
                     </div>
                 </div>
 
-                <div class="work-card">
+                <div class="work-card" data-aos="fade-right" data-aos-delay="700">
                     <img src="<?= esc_url(get_theme_file_uri('/images/ファイルストレージCMS.png')) ?>" alt="Project 2">
                     <div class="work-info">
                         <h3>ファイルストレージCMS</h3>

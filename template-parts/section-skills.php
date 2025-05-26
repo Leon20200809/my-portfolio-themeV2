@@ -27,7 +27,7 @@
                     <img src="<?= esc_url(get_theme_file_uri('/icons/mysql.svg')) ?>" alt="React">
                     <span>MySQL</span>
                 </div>
-                <div class="skill-item"data-aos="fade-up" data-aos-delay="700">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="700">
                     <img src="<?= esc_url(get_theme_file_uri('/icons/react.svg')) ?>" alt="React">
                     <span>React</span>
                 </div>

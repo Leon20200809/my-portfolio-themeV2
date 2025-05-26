@@ -7,7 +7,7 @@ function my_enqueue_styles(){
     wp_enqueue_style('reset', $stylesheet_dir . '/css/reset-light.css', array());
     // <!-- AOS.js（Animate On Scroll） は、まさに**“動き出すHTML”を超簡単に実現する魔法のライブラリ -->
     wp_enqueue_style('aos', 'https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css', array('reset'));
-    wp_enqueue_style('style', $stylesheet_dir . '/style.css', array('reset', 'aos'));
+    wp_enqueue_style('style', $stylesheet_dir . '/scss/style.css', array('reset', 'aos'));
 
     wp_enqueue_script('jquery');
     // <!-- AOS.js（Animate On Scroll） は、まさに**“動き出すHTML”を超簡単に実現する魔法のライブラリ -->
