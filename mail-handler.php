@@ -1,4 +1,8 @@
 <?php
+	// WordPress環境を読み込む
+	file_put_contents(__DIR__ . '/path-debug.txt', dirname(__FILE__, 4));
+	require_once( dirname(__FILE__, 4) . '/wp-load.php' );
+
     // 1. 値を受け取る（フォームから）
     $name    = trim($_POST['name']);
     $email   = trim($_POST['email']);

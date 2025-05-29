@@ -5,7 +5,7 @@
 
             <div class="works-grid">
                 
-                <div class="work-card" data-aos="fade-right" data-aos-delay="300">
+                <div class="work-card">
                     <img src="<?= esc_url(get_theme_file_uri('/images/WordPressオリジナルテーマ.png')) ?>" alt="Project 1">
                     <div class="work-info">
                         <h3>WordPressのオリジナルテーマ</h3>
@@ -13,22 +13,33 @@
                     </div>
                 </div>
 
-                <div class="work-card" data-aos="fade-right" data-aos-delay="500">
-                    <img src="<?= esc_url(get_theme_file_uri('/images/Twitter風のCMS.png')) ?>" alt="Project 1">
+                <div class="work-card">
+                    <img src="<?= esc_url(get_theme_file_uri('/images/Twitter風のCMS.png')) ?>" alt="Project 2">
                     <div class="work-info">
                         <h3>Twitter風CMS</h3>
-                        <p>PHPで構築したTwitter風CMS。画像投稿・ユーザー認証機能あり。データベースへの接続、プリペアードステートメントを理解するのに最適な逸品。</p>
+                        <p>PHPで構築したTwitter風CMS。画像投稿・ユーザー認証機能あり。データベースへの接続、プリペアドステートメントを理解するのに最適な逸品。</p>
                     </div>
                 </div>
 
-                <div class="work-card" data-aos="fade-right" data-aos-delay="700">
-                    <img src="<?= esc_url(get_theme_file_uri('/images/ファイルストレージCMS.png')) ?>" alt="Project 2">
+                <div class="work-card">
+                    <img src="<?= esc_url(get_theme_file_uri('/images/ファイルストレージCMS.png')) ?>" alt="Project 3">
                     <div class="work-info">
                         <h3>ファイルストレージCMS</h3>
-                        <p>グーグルドライブ（無料版）がすぐいっぱいになって困るというソリューション。WordPressのサブディレクトリとして公開。ブラウザからファイルのアップ、ダウンロードができる。ユーザー認証機能、投稿ユーザー及びファイル種別でのソートが可能。</p>
+                        <p>Googleドライブ（無料版）がすぐいっぱいになって困るというソリューション。WordPressのサブディレクトリとして公開。ブラウザからファイルのアップ、ダウンロードができる。ユーザー認証機能、投稿ユーザー及びファイル種別でのソートが可能。</p>
                     </div>
                 </div>
-            <!-- 他のプロジェクトも同様に -->
+
+                <div class="work-card">
+                    <a href="https://lazygenius.dev/huntinghorn-simulator/" target="_blank">
+                        <img src="<?= esc_url(get_theme_file_uri('/images/狩猟笛シミュレーター.png')) ?>" alt="Project 4">
+                        <div class="work-info">
+                            <h3>MHWsの狩猟笛シミュレーター</h3>
+                            <p>狩猟笛の旋律確認WEBアプリ。完全に趣味のもの。CSVファイルをJSONへ変換しJavaScriptで処理。</p>
+                        </div>
+                    </a> 
+                </div>
+                
+                <!-- カスタム投稿ループ処理にするか考え中 -->
             </div>
         </div>
     </section>

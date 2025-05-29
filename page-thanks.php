@@ -1,5 +1,17 @@
 <?php get_header(); ?>
     <style>
+		:root {
+			--font-heading: 'Montserrat', sans-serif;
+			--font-body: 'Inter', sans-serif;
+
+			--color-bg: #0e0f11;
+			--color-bg-alt: #1a1c1f;
+			--color-text: #e0f8f8;
+			--color-accent: #55d1c9;
+			--color-accent-hover: #3dbbb3;
+			--color-muted: #aaa;
+			--color-border: #2b2f33;
+        }
         .thanks-page {
         height: 100vh;
         display: flex;

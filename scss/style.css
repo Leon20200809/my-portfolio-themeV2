@@ -12,6 +12,14 @@ body {
   padding: 0 2rem;
 }
 
+.l-mb2 {
+  margin-bottom: 2rem;
+}
+
+.l-mb6 {
+  margin-bottom: 6rem;
+}
+
 /* ボタン */
 .btn-primary {
   display: inline-block;
@@ -133,7 +141,7 @@ body {
   width: 180px;
   max-height: 50px;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
   box-shadow: 0px 0px 93px 10px #302f2f;
   border-radius: 5px;
 }
@@ -202,7 +210,6 @@ body {
 .hero-content p {
   font-size: 1.2rem;
   color: #aaa;
-  margin-bottom: 2rem;
 }
 
 /* アバウト */
