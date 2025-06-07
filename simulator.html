@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/simulator_style.css">
+    <title>カリピストンシミュレーター(仮)</title>
+</head>
+<body>
+    <!-- HTML -->
+    <div class="continar">
+        <h1 class="main-title">カリピストンシミュレーター(仮)</h1>
+
+        <div class="button-area">
+            <button class="btn">武器ランダム選出</button>
+            <button class="btn">旋律被りチェック</button>
+            <button class="btn">被りの少ない組み合わせ</button>
+            <button class="btn">リセット</button>
+        </div>
+
+        <div class="hunter-team">
+        <div class="hunter-card">
+            <input type="text" class="hunter-name hunter-1" value="カリピストン1号" placeholder="カリピストン1号" />
+            <img src="images/default.jpg" alt="Heavy Bone Horn" class="weapon-img">
+            <select class="weapon-select">
+                <option>エスペラホルン</option>
+                <option>白炎笛アリエント</option>
+                <option>グレートバグパイプ</option>
+                <option>断崖のコーヴィラ</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+            </select>
+
+            <ul class="melodies">
+                <li><span class="icon">🗡️</span> 攻撃力UP【大】</li>
+                <li><span class="icon">🧪</span> 体力回復【小】</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+            </ul>
+        </div>
+
+        <div class="hunter-card">
+            <input type="text" class="hunter-name hunter-2" value="カリピストン2号" placeholder="カリピストン2号"/>
+            <img src="images/default.jpg" alt="Heavy Bone Horn" class="weapon-img">
+            <select class="weapon-select">
+                <option>エスペラホルン</option>
+                <option>白炎笛アリエント</option>
+                <option>グレートバグパイプ</option>
+                <option>断崖のコーヴィラ</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+            </select>
+            <ul class="melodies">
+                <li><span class="icon">🗡️</span> 攻撃力UP【大】</li>
+                <li><span class="icon">🧪</span> 体力回復【小】</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+            </ul>
+        </div>
+
+        <div class="hunter-card">
+            <input type="text" class="hunter-name hunter-3" value="カリピストン3号" placeholder="カリピストン3号"/>
+            <img src="images/default.jpg" alt="Heavy Bone Horn" class="weapon-img">
+            <select class="weapon-select">
+                <option>エスペラホルン</option>
+                <option>白炎笛アリエント</option>
+                <option>グレートバグパイプ</option>
+                <option>断崖のコーヴィラ</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+            </select>
+            <ul class="melodies">
+                <li><span class="icon">🗡️</span> 攻撃力UP【大】</li>
+                <li><span class="icon">🧪</span> 体力回復【小】</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+            </ul>
+        </div>
+
+        <div class="hunter-card">
+            <input type="text" class="hunter-name hunter-4" value="カリピストン4号" placeholder="カリピストン4号"/>
+            <img src="images/default.jpg" alt="Heavy Bone Horn" class="weapon-img">
+            <select class="weapon-select">
+                <option>エスペラホルン</option>
+                <option>白炎笛アリエント</option>
+                <option>グレートバグパイプ</option>
+                <option>断崖のコーヴィラ</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+                <option>・・・・・・・・</option>
+            </select>
+            <ul class="melodies">
+                <li><span class="icon">🗡️</span> 攻撃力UP【大】</li>
+                <li><span class="icon">🧪</span> 体力回復【小】</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+                <li><span class="icon">🌪️</span> ・・・・・・・</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    
+
+</body>
+</html>
